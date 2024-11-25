@@ -58,4 +58,8 @@ public class Student {
                 ", address='" + address + '\'' +
                 '}';
     }
+
+    public void showInfo () {
+        System.out.println(name + ", " + surname + ", " + address);
+    }
 }
